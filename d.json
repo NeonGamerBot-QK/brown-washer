@@ -1,0 +1,1020 @@
+{
+  "location": {
+    "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+    "as400Number": "1423449",
+    "timezone": "",
+    "label": "BROWN UNIVERSITY",
+    "description": "",
+    "branchId": "14",
+    "lifeCycleState": "live",
+    "installationNotes": "",
+    "hoursOfOperations": [],
+    "address": {
+      "address1": "27 BROWN ST",
+      "address2": "",
+      "city": "PROVIDENCE",
+      "state": "RI",
+      "zipcode": "02912-9066",
+      "location": null
+    },
+    "propertyClass": null,
+    "applyTransactionFee": false,
+    "washerPricingProfile": {
+      "applyTransactionFee": false,
+      "vend": {
+        "default": 175,
+        "appless": null,
+        "app": null,
+        "coin": null,
+        "webApp": null,
+        "creditCard": null
+      },
+      "label": null,
+      "component": null,
+      "profileId": "default",
+      "soil": {
+        "light": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "medium": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "heavy": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        }
+      },
+      "cycle": {
+        "delicates": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "permPress": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "normal": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        }
+      },
+      "water": {
+        "cold": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "warm": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "hot": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        }
+      },
+      "isDefault": true,
+      "isCustom": false,
+      "customName": null
+    },
+    "dryerPricingProfile": {
+      "applyTransactionFee": false,
+      "vend": {
+        "default": 175,
+        "appless": null,
+        "app": null,
+        "coin": null,
+        "webApp": null,
+        "creditCard": null
+      },
+      "label": null,
+      "component": null,
+      "profileId": "default",
+      "mainCycleDuration": 45,
+      "additionalTimeDuration": 5,
+      "additionalTimePrice": {
+        "default": 25,
+        "appless": null,
+        "app": null,
+        "coin": null,
+        "webApp": null,
+        "creditCard": null
+      },
+      "cycle": {
+        "low-temp": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "medium-temp": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "high-temp": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "delicates": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "no-temp": {
+          "default": 0,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        }
+      },
+      "isDefault": true,
+      "isCustom": false,
+      "customName": null
+    },
+    "isTestLocation": false,
+    "notes": null,
+    "machineCount": 355,
+    "washerCount": 174,
+    "dryerCount": 181,
+    "roomCount": 63,
+    "school": {
+      "name": "Brown - Atrium SSO PROD",
+      "cardName": "Complimentary Laundry Funds",
+      "accountName": "BrownUniversity",
+      "accountDescription": "Brown University",
+      "logoFileName": "blank.png",
+      "allowGuestCreditCard": false,
+      "allowGuestStudentCard": true,
+      "allowWallet": false,
+      "allowAuthenticatedStudentCard": true
+    },
+    "schoolServiceProvider": {
+      "env": "prod",
+      "ssoEnabled": true,
+      "ssoUrl": "https://mycard.brown.edu/login.php?cid=248",
+      "name": "atrium",
+      "atrium": { "apiEnv": "prod", "clientId": "brown" },
+      "clientId": "142344900000",
+      "clientSecret": {
+        "algorithm": "aes-256-cbc",
+        "iv": "1k63jrPOdIDlqQdmUhvE8Q==",
+        "cipherText": "KzoihZN1ig+F2a/gUB0jO3JTRC6JqqIMSIgY052HICHpL//t9ALabADholrJ560U"
+      }
+    },
+    "washerIsCountAccurate": true,
+    "dryerIsCountAccurate": true,
+    "washerCountLastChangedTime": "2025-05-14T17:12:48.130000",
+    "dryerCountLastChangedTime": "2025-07-06T18:52:30.975000",
+    "washerPricingProfiles": [
+      {
+        "applyTransactionFee": false,
+        "vend": {
+          "default": 175,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "label": null,
+        "component": null,
+        "profileId": "default",
+        "soil": {
+          "light": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "medium": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "heavy": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "cycle": {
+          "delicates": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "permPress": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "normal": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "water": {
+          "cold": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "warm": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "hot": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "isDefault": true,
+        "isCustom": false,
+        "customName": "Default"
+      },
+      {
+        "applyTransactionFee": false,
+        "vend": {
+          "default": 175,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "label": null,
+        "component": null,
+        "profileId": "highCapacity",
+        "soil": {
+          "light": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "medium": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "heavy": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "cycle": {
+          "delicates": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "permPress": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "normal": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "water": {
+          "cold": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "warm": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "hot": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "isDefault": false,
+        "isCustom": true,
+        "customName": "High Capacity"
+      },
+      {
+        "applyTransactionFee": false,
+        "vend": {
+          "default": 175,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "label": null,
+        "component": null,
+        "profileId": "custom",
+        "soil": {
+          "light": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "medium": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "heavy": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "cycle": {
+          "delicates": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "permPress": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "normal": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "water": {
+          "cold": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "warm": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "hot": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "isDefault": false,
+        "isCustom": true,
+        "customName": "Custom"
+      }
+    ],
+    "dryerPricingProfiles": [
+      {
+        "applyTransactionFee": false,
+        "vend": {
+          "default": 175,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "label": null,
+        "component": null,
+        "profileId": "default",
+        "mainCycleDuration": 45,
+        "additionalTimeDuration": 5,
+        "additionalTimePrice": {
+          "default": 25,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "cycle": {
+          "low-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "medium-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "high-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "delicates": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "no-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "isDefault": true,
+        "isCustom": false,
+        "customName": "Default"
+      },
+      {
+        "applyTransactionFee": false,
+        "vend": {
+          "default": 175,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "label": null,
+        "component": null,
+        "profileId": "highCapacity",
+        "mainCycleDuration": 45,
+        "additionalTimeDuration": 5,
+        "additionalTimePrice": {
+          "default": 25,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "cycle": {
+          "low-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "medium-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "high-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "delicates": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "no-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "isDefault": false,
+        "isCustom": true,
+        "customName": "High Capacity"
+      },
+      {
+        "applyTransactionFee": false,
+        "vend": {
+          "default": 175,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "label": null,
+        "component": null,
+        "profileId": "custom",
+        "mainCycleDuration": 45,
+        "additionalTimeDuration": 5,
+        "additionalTimePrice": {
+          "default": 25,
+          "appless": null,
+          "app": null,
+          "coin": null,
+          "webApp": null,
+          "creditCard": null
+        },
+        "cycle": {
+          "low-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "medium-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "high-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "delicates": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          },
+          "no-temp": {
+            "default": 0,
+            "appless": null,
+            "app": null,
+            "coin": null,
+            "webApp": null,
+            "creditCard": null
+          }
+        },
+        "isDefault": false,
+        "isCustom": true,
+        "customName": "Custom"
+      }
+    ]
+  },
+  "room": {
+    "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+    "roomId": "1423449-070",
+    "address": {
+      "address1": "27 BROWN ST",
+      "address2": "",
+      "city": "PROVIDENCE",
+      "state": "RI",
+      "zipcode": "02912-9066",
+      "location": null
+    },
+    "pockets": null,
+    "freePlay": true,
+    "aiHubId": "ee7daad0-402d-497c-a1b0-b5527bce5b58",
+    "machineCount": 8,
+    "washerCount": 4,
+    "dryerCount": 4,
+    "label": "VGQBRM001",
+    "description": "\tVGQBRM001",
+    "hoursOfOperations": [],
+    "lifeCycleState": "live",
+    "installerComments": null,
+    "expectedWasherInstallationCount": 171,
+    "expectedDryerInstallationCount": 182,
+    "washerIsCountAccurate": true,
+    "dryerIsCountAccurate": true,
+    "washerCountLastChangedTime": "2024-08-27T14:13:37.878000",
+    "dryerCountLastChangedTime": "2022-11-14T01:12:35.396000"
+  },
+  "availabilitySummary": {
+    "washers": {
+      "available": 1,
+      "inUse": 3,
+      "temporarilyUnavailable": 0,
+      "soonest": 9
+    },
+    "dryers": {
+      "available": 0,
+      "inUse": 3,
+      "temporarilyUnavailable": 0,
+      "soonest": 35
+    }
+  },
+  "licensePlate": "708-GZV",
+  "machines": [
+    {
+      "opaqueId": "6a7e5190-7d77-4b55-ae97-af3bd820d5e2",
+      "controllerType": "ACA",
+      "type": "dryer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 16,
+      "licensePlate": "708-GZV",
+      "nfcId": "e8b27939-3c9b-43c0-bd2e-42b92d0ab0eb",
+      "qrCodeId": "953I8",
+      "doorClosed": true,
+      "available": false,
+      "notAvailableReason": "in-use",
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 35,
+      "settings": {
+        "soil": "normal",
+        "cycle": "normal",
+        "washerTemp": null,
+        "dryerTemp": "med-temp"
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": true,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "33bf22a1-e213-4b73-8d52-7589303b36ad",
+      "controllerType": "ACA",
+      "type": "dryer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 15,
+      "licensePlate": "709-GZV",
+      "nfcId": "5e0e3cba-9831-436f-a32d-42ce7d187288",
+      "qrCodeId": "xaRMa",
+      "doorClosed": true,
+      "available": false,
+      "notAvailableReason": "in-use",
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 49,
+      "settings": {
+        "soil": "normal",
+        "cycle": "normal",
+        "washerTemp": null,
+        "dryerTemp": "high-temp"
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": true,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "1a97a2ea-e867-4037-9efe-72a60ecd1850",
+      "controllerType": "ACA",
+      "type": "washer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 12,
+      "licensePlate": "555-GZV",
+      "nfcId": "c8624f7e-243b-44a0-be1e-e985c00b9566",
+      "qrCodeId": "Yvtlo",
+      "doorClosed": false,
+      "available": false,
+      "notAvailableReason": "in-use",
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 13,
+      "settings": {
+        "soil": "light",
+        "cycle": "normal",
+        "washerTemp": "cold",
+        "dryerTemp": null
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": false,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "fe7e8960-0a18-491c-a1b2-ffbdc526e85a",
+      "controllerType": "ACA",
+      "type": "dryer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 13,
+      "licensePlate": "694-GZV",
+      "nfcId": "fe15f997-a33e-41f2-9309-5817cfd96c06",
+      "qrCodeId": "WDrp6",
+      "doorClosed": true,
+      "available": false,
+      "notAvailableReason": "in-use",
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 42,
+      "settings": {
+        "soil": "normal",
+        "cycle": "normal",
+        "washerTemp": null,
+        "dryerTemp": "high-temp"
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": true,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "ed7a8b0b-1949-4898-93a3-71df06e72485",
+      "controllerType": "QPRO",
+      "type": "washer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 9,
+      "licensePlate": "552-HLL",
+      "nfcId": "37ac2cd0-cadf-48ee-a94b-f441f468f5e1",
+      "qrCodeId": "Dv7oL",
+      "doorClosed": false,
+      "available": false,
+      "notAvailableReason": "in-use",
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 9,
+      "settings": {
+        "soil": "light",
+        "cycle": "normal",
+        "washerTemp": "cold",
+        "dryerTemp": null
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": false,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "266ed3ab-0ca0-4022-89cf-516e29fd8d1e",
+      "controllerType": "ACA",
+      "type": "washer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 11,
+      "licensePlate": "561-HLL",
+      "nfcId": "8e0526e6-347c-4aa4-8e2b-f0b0fb5ffe54",
+      "qrCodeId": "JCray",
+      "doorClosed": false,
+      "available": true,
+      "notAvailableReason": null,
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 0,
+      "settings": {
+        "soil": "light",
+        "cycle": "normal",
+        "washerTemp": "cold",
+        "dryerTemp": null
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": false,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "664d5c7a-c5b6-43f3-9039-de9f5a61a7da",
+      "controllerType": "ACA",
+      "type": "washer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 10,
+      "licensePlate": "040-JYM",
+      "nfcId": "4bd2df34-13fa-409e-b947-2438e4da09cd",
+      "qrCodeId": "8uJV9",
+      "doorClosed": false,
+      "available": false,
+      "notAvailableReason": "in-use",
+      "inService": null,
+      "freePlay": true,
+      "mode": "running",
+      "display": null,
+      "timeRemaining": 28,
+      "settings": {
+        "soil": "light",
+        "cycle": "normal",
+        "washerTemp": "warm",
+        "dryerTemp": null
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": false,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    },
+    {
+      "opaqueId": "40412f76-ebba-4778-977d-c8d352a14c58",
+      "controllerType": "ACA",
+      "type": "dryer",
+      "locationId": "be8125d5-00f5-4852-b87b-878fdba0ade3",
+      "roomId": "1423449-070",
+      "stickerNumber": 14,
+      "licensePlate": "721-GZV",
+      "nfcId": "a80f421b-b2a4-41dc-b514-cdeac1a708aa",
+      "qrCodeId": "tuceI",
+      "doorClosed": true,
+      "available": false,
+      "notAvailableReason": "offline",
+      "inService": null,
+      "freePlay": true,
+      "mode": "idle",
+      "display": null,
+      "timeRemaining": 0,
+      "settings": {
+        "soil": "normal",
+        "cycle": "normal",
+        "washerTemp": null,
+        "dryerTemp": "med-temp"
+      },
+      "capability": {
+        "showSettings": true,
+        "addTime": true,
+        "showAddTimeNotice": false
+      },
+      "groupId": null,
+      "stackItems": null
+    }
+  ],
+  "balance": 0
+}
