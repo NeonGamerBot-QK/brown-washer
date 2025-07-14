@@ -1,0 +1,2 @@
+- [ ] add slack integration (disabled by default)
+- [ ] more ai features or something.
